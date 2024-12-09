@@ -1,8 +1,8 @@
 /**
  * insertion sort
  */
-const arr = [10, 2, 6, 4, 7, 3];
-
+const arr = [-10, 2, 6, 4, 7, 3];
+const useCase1 = [-4,2,1,4];
 const insertionSort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
     let current = arr[i];
@@ -16,4 +16,4 @@ const insertionSort = (arr) => {
 
   return arr;
 };
-console.log(insertionSort(arr));
+console.log(insertionSort(useCase1));
